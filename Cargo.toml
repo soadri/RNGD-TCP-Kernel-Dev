@@ -91,3 +91,7 @@ path = "src/pilot_e2e_sqrt.rs"
 [[bin]]
 name = "pilot_e2e_exp"
 path = "src/pilot_e2e_exp.rs"
+
+[[bin]]
+name = "pilot_e2e_sigmoid"
+path = "src/pilot_e2e_sigmoid.rs"
