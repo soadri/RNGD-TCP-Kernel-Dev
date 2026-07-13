@@ -1,0 +1,83 @@
+[package]
+name = "rngd-tcp-kernel-dev"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+# `cargo furiosa-opt` sets `--cfg backend="..."`. Declare the known values so the
+# bare `cargo build` / `cargo check` paths don't emit unexpected-cfg warnings.
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(backend, values("simulation", "emulation", "npu", "typecheck"))'] }
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "constant_add"
+path = "src/constant_add.rs"
+
+[[bin]]
+name = "elementwise_mul"
+path = "src/elementwise_mul.rs"
+
+[[bin]]
+name = "dot_product"
+path = "src/dot_product.rs"
+
+[[bin]]
+name = "gemv"
+path = "src/gemv.rs"
+
+[[bin]]
+name = "gemm"
+path = "src/gemm.rs"
+
+[dependencies]
+furiosa-opt-std = "0.3"
+rand = "0.9"
+tokio = { version = "1.29", features = ["rt", "rt-multi-thread", "sync", "macros"] }
+
+
+[[bin]]
+name = "pilot_add_f32"
+path = "src/pilot_add_f32.rs"
+
+[[bin]]
+name = "pilot_e2e_add"
+path = "src/pilot_e2e_add.rs"
+
+[[bin]]
+name = "pilot_e2e_sub"
+path = "src/pilot_e2e_sub.rs"
+
+[[bin]]
+name = "pilot_e2e_mul"
+path = "src/pilot_e2e_mul.rs"
+
+[[bin]]
+name = "pilot_batch_gemm"
+path = "src/pilot_batch_gemm.rs"
+
+[[bin]]
+name = "pilot_e2e_batch_gemm"
+path = "src/pilot_e2e_batch_gemm.rs"
+
+[[bin]]
+name = "pilot_e2e_gemm"
+path = "src/pilot_e2e_gemm.rs"
+
+[[bin]]
+name = "pilot_e2e_div"
+path = "src/pilot_e2e_div.rs"
+
+[[bin]]
+name = "pilot_e2e_dot_product"
+path = "src/pilot_e2e_dot_product.rs"
+
+[[bin]]
+name = "pilot_e2e_rsqrt"
+path = "src/pilot_e2e_rsqrt.rs"
+
+[[bin]]
+name = "pilot_e2e_pow2"
+path = "src/pilot_e2e_pow2.rs"

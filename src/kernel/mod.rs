@@ -1,0 +1,16 @@
+pub mod constant_add_kernel;
+pub mod dot_product_kernel;
+pub mod elementwise_mul_kernel;
+pub mod gemm_kernel;
+pub mod gemv_kernel;
+pub mod pilot_add_f32_kernel;
+pub mod pilot_e2e_add_kernel;
+pub mod pilot_e2e_sub_kernel;
+pub mod pilot_e2e_mul_kernel;
+pub mod pilot_batch_gemm_kernel;
+pub mod pilot_e2e_batch_gemm_kernel;
+pub mod pilot_e2e_gemm_kernel;
+pub mod pilot_e2e_div_kernel;
+pub mod pilot_e2e_dot_product_kernel;
+pub mod pilot_e2e_rsqrt_kernel;
+pub mod pilot_e2e_pow2_kernel;
