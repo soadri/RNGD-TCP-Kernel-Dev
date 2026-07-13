@@ -22,3 +22,4 @@ pub mod pilot_e2e_tanh_kernel;
 pub mod pilot_e2e_sin_kernel;
 pub mod pilot_e2e_cos_kernel;
 pub mod pilot_e2e_gemv_kernel;
+pub mod pilot_e2e_erf_kernel;

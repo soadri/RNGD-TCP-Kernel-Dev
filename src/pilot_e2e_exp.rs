@@ -29,7 +29,7 @@ mod tests {
 
         println!("=== PyTorch 실제 출력 vs RNGD 시뮬레이터 출력 ===");
         for i in 0..CHECK_N {
-            println!("  [{i}]: {} | {}", expected[i], actual[i]);
+            println!("  [{i}]: {} | {}", f32::from(expected[i]), f32::from(actual[i]));
         }
         for i in 0..CHECK_N {
             let diff = (expected[i] - actual[i]).abs();

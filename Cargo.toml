@@ -115,3 +115,7 @@ path = "src/pilot_e2e_cos.rs"
 [[bin]]
 name = "pilot_e2e_gemv"
 path = "src/pilot_e2e_gemv.rs"
+
+[[bin]]
+name = "pilot_e2e_erf"
+path = "src/pilot_e2e_erf.rs"
