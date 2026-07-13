@@ -95,3 +95,19 @@ path = "src/pilot_e2e_exp.rs"
 [[bin]]
 name = "pilot_e2e_sigmoid"
 path = "src/pilot_e2e_sigmoid.rs"
+
+[[bin]]
+name = "pilot_e2e_log"
+path = "src/pilot_e2e_log.rs"
+
+[[bin]]
+name = "pilot_e2e_tanh"
+path = "src/pilot_e2e_tanh.rs"
+
+[[bin]]
+name = "pilot_e2e_sin"
+path = "src/pilot_e2e_sin.rs"
+
+[[bin]]
+name = "pilot_e2e_cos"
+path = "src/pilot_e2e_cos.rs"

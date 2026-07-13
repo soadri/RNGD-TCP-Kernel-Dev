@@ -17,3 +17,7 @@ pub mod pilot_e2e_pow2_kernel;
 pub mod pilot_e2e_sqrt_kernel;
 pub mod pilot_e2e_exp_kernel;
 pub mod pilot_e2e_sigmoid_kernel;
+pub mod pilot_e2e_log_kernel;
+pub mod pilot_e2e_tanh_kernel;
+pub mod pilot_e2e_sin_kernel;
+pub mod pilot_e2e_cos_kernel;
