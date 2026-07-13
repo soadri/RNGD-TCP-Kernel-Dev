@@ -14,3 +14,4 @@ pub mod pilot_e2e_div_kernel;
 pub mod pilot_e2e_dot_product_kernel;
 pub mod pilot_e2e_rsqrt_kernel;
 pub mod pilot_e2e_pow2_kernel;
+pub mod pilot_e2e_sqrt_kernel;
