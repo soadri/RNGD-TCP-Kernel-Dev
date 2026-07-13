@@ -6,3 +6,4 @@ test_log_*.txt
 
 # furiosa-opt 바이너리 태그
 furiosa-opt.tag
+.idea/
