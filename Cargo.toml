@@ -131,3 +131,7 @@ path = "src/pilot_e2e_reduce_mean.rs"
 [[bin]]
 name = "pilot_e2e_silu"
 path = "src/pilot_e2e_silu.rs"
+
+[[bin]]
+name = "pilot_e2e_gelu"
+path = "src/pilot_e2e_gelu.rs"
