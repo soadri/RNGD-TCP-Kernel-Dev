@@ -24,3 +24,4 @@ pub mod pilot_e2e_cos_kernel;
 pub mod pilot_e2e_gemv_kernel;
 pub mod pilot_e2e_erf_kernel;
 pub mod pilot_e2e_transpose_kernel;
+pub mod pilot_e2e_reduce_mean_kernel;
